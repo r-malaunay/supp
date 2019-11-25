@@ -26,8 +26,9 @@ data = pd.read_csv(file, sep = ';')
   7. Créez une matrice <img src="https://latex.codecogs.com/svg.latex?\Large&space;A=\frac{1}{n}T^{T}D_{X_{1}}^{-1}" /> et une matrice <img src="https://latex.codecogs.com/svg.latex?\Large&space;B=\frac{1}{n}TD_{X_{2}}^{-1}" />
 
  avec n le nombre d’observations, à l’aide des fonctions `np.transpose` `np.linalg.inv` et `np.matmul`
-  8. Importez la fonction PCA
   
+  8. Importez la fonction PCA
+    
   9. Estimez une PCA pour la matrice AB et la matrice BA
   
   10. Analysez les composantes principales
