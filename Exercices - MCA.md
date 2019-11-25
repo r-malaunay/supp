@@ -27,12 +27,19 @@ data = pd.read_csv(file, sep = ';')
 
  avec n le nombre d’observations, à l’aide des fonctions `np.transpose` `np.linalg.inv` et `np.matmul`
   8. Importez la fonction PCA
+  
   9. Estimez une PCA pour la matrice AB et la matrice BA
+  
   10. Analysez les composantes principales
+  
 2. Multiple Correspondance Analysis
+
   11. On utilise aussi les même données
+  
   12. Supprimez les variables quantitatives du dataset
+  
   13. Utilisez la fonction pd.get_dummies pour créer le tableau disjonctif complet que vous appellerez T
+  
   14. Calculez <img src="https://latex.codecogs.com/svg.latex?\Large&space;B=T^{T}T" />
 
   15. Calculez le vecteur des fréquences pour chacune des variables grâce à la fonction pd.value_counts
